@@ -2,11 +2,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        primary: '#eee6d9',
         'accent-1': '#FAFAFA',
         'accent-2': '#EAEAEA',
         'accent-7': '#333',
         success: '#0070f3',
         cyan: '#79FFE1',
+        secondary: '#244093',
+      },
+      fontFamily: {
+        sans: ['AzeretMono-Light', 'sans-serif'],
+        serif: ['Merriweather', 'serif'],
       },
       spacing: {
         28: '7rem',
@@ -29,4 +35,5 @@ module.exports = {
       },
     },
   },
+  plugins: [require("@tailwindcss/typography")],
 }

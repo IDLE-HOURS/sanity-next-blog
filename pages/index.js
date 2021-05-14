@@ -15,10 +15,10 @@ export default function Index({ allPosts, preview }) {
     <>
       <Layout preview={preview}>
         <Head>
-          <title>Next.js Blog Example with {CMS_NAME}</title>
+          <title>Dawdlism Dispatch by The Idle Hours Company</title>
         </Head>
-        <Container>
-          <Intro />
+        <Container className= "bg-primary" >
+          <Intro/>
           {heroPost && (
             <HeroPost
               title={heroPost.title}
